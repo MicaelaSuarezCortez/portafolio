@@ -13,53 +13,53 @@
     color: #fff
 }
 .logo {
-    line-height: 100px;
+    line-height: 100px; /* espacio de interlineado*/
     float: left;
     text-transform: uppercase;
 }
 
 .menu {
-    float: right;
+    float: right;  
     line-height: 100px
 }
 
 .menu a {
     color: #fff;
     text-transform: uppercase;
-    text-decoration: none;
-    padding: 0 10px;
+    text-decoration: none; /* para quitar la línea de subrayado */
+    padding: 0 10px; /* espacio alrededor del contenido del elemento, pero dentro de sus bordes (espacioentre contenido y borde) */
     transition: 0.4s
 }
 
 .show-menu-btn, .hide-menu-btn {
     transition: 0.4s;
-    font-size: 30px; 
+    font-size: 30px;  /*para el tamaño de los botones menu y X*/
     cursor: pointer;
-    display: none
+    display: none /* saca el elemento del flujo no reserva su espacio*/
 }
 
 .show-menu-btn {
-    float: right;
+    float: right; /*hace que el botón del menú flote hacia la derecha*/
 }
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover {
-    color: #3498db;
+    color: #3498db; 
 }
 
 #chk {
-    position: absolute;
+    position: absolute; /*pierde su tamaño y espacio en el flujo, su ancho lo define su contenido*/
     visibility: hidden;
-    z-index: -1111;
+    z-index: -1111; /**/
 }
 
 @media screen and (max-width: 800px) {
     .show-menu-btn, .hide-menu-btn{
-        display: block;
+        display: block; /*cuando llegue a 800px el menú se muestra en bloque uno debajo de otro*/
     }
     .menu {
         position: fixed;
-        width: 50%;
+        width: 100%;
         height: 100vh;
         background: #333;
         right: -100%;
@@ -82,9 +82,86 @@
 
     #chk:checked ~ .menu {
         right: 0;
-    }
+    }   
 }
 
-.foto-perfil {
+.container-about-me {
+ outline: 10px solid green;
+ height: 100%;
+ width: 80%;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center
+
+
+}
+.foto-perfil{
     width: 100%;
+    
+}
+.div-foto {
+    background: red;
+    /* width: 95%; */
+    flex-basis: 95%;
+    height: 100%;
+    margin-top: 10%
+}
+
+.presentation {
+    background: blue;
+    /* width: 95%; */
+    flex-basis: 95%;
+    height: 100%;
+    margin-top: 10%
+}
+
+.description-about-me {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify
+}
+
+/* Para el footer */
+.container-footer {
+  background-color: palevioletred;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 3%   
+}
+
+.container-portafolio {
+    outline: 10px solid green;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap:wrap;
+    margin-bottom: 15%;
+    
+   
+}
+.title-portafolio {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+.img-project{
+    background: aqua;
+    /* flex-basis: 50%; */
+    width: 150px;
+    height:150px;
+    margin-top: 10%
+    
+    
 }

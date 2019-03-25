@@ -1,41 +1,62 @@
 export const viewTemplateSection = {
   acercademi: `
-    <div>
-      <figure>
-        <img src="images/micaela-suarez.JPG" class="foto-perfil">
-      </figure>
-      <div>
-        <p>Hola mi nombre es Micaela Suarez Cortez. Front-end developer, a quien le gusta aprender 
-         de manera autodidacta y trabajar en equipo. 
-         Apasionada por la tecnología debido a las enormes posibilidades y oportunidades que nos
-         brinda para implementar ideas innovadoras que faciliten y aporten al desarrollo de la sociedad. 
-         He desarrollado aplicaciones web responsive con JavaScript, HTML5, CSS3 y Firebase.</p>
+    <div class="container-about-me">
+      <div class="div-foto">
+        <figure class= "foto-perfil">
+          <img src="images/micaela-suarez.JPG" class="foto-perfil">
+        </figure>
       </div>
-     </div>
+      <div class = "presentation">
+        <p class="description-about-me">Hola mi nombre es Micaela Suarez Cortez y soy Front-end developer egresada de Laboratoria.
+        He desarrollado aplicaciones web con HTML5, CSS3, JavaScript y Firebase.</p>
+      </div>
+   </div>
     `,
-  portafolio: `
-    <div>
-      <div>
-        <p>Portafolio</p>
+  portafolio: ` 
+  <div class="title-portafolio">
+  <p>PORTAFOLIO</p>
+  </div>   
+    <div class="container-portafolio">    
+      <div class="div-img-cipher">
+        <figure>
+          <img src="images/logo.png" alt="cipher" class="img-project">          
+        </figure>
       </div>
-      <figure>
-        <img src="#" alt="cipher">
-        <p>Cipher</p>
-        <img src="#" alt="pokemon-go">
-        <p>Pokemon Go</p>
-        <img src="#" alt="joinclude">
-        <p>Joinclude</p>
-        <img src="#" alt="vital">
-        <p>Vital</p>
-        <img src="#" alt="paletica">
-        <p>Paletica</p>
-        <img src="#" alt="beneficencia">
-        <p>Beneficencia</p>
-        <img src="#" alt="ica-express">
-        <p>Ica Express</p>
-        <img src="#" alt="social"> 
-        <p>Social</p>     
-      </figure>
+      <div class="img-pokemon-go">
+        <figure>
+        <img src="images/logo.png" alt="pokemon-go" class="img-project">
+        </figure>
+      </div>
+      <div class="img-joinclude">
+        <figure>
+        <img src="images/logo.png" alt="joinclude" class="img-project">
+        </figure>
+      </div>
+      <div class="img-vital">
+        <figure>
+        <img src="images/logo.png" alt="vital" class="img-project">
+        </figure>
+      </div>
+      <div class="img-paletica">
+        <figure>
+        <img src="images/logo.png" alt="paletica" class="img-project">        
+        </figure>
+      </div>
+      <div class="img-beneficencia">
+        <figure>
+        <img src="images/logo.png" alt="beneficencia" class="img-project">
+        </figure>
+      </div>
+      <div class="img-ica-express"> 
+        <figure>
+        <img src="images/logo.png" alt="ica-express" class="img-project">
+        </figure>
+      </div>
+      <div class="img-social">
+        <figure>
+          <img src="images/logo.png" alt="social" class="img-project">         
+        </figure>
+      </div>
     </div>
    `,
   skills: `
