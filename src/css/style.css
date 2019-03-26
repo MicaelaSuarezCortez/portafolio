@@ -161,7 +161,8 @@
     /* flex-basis: 50%; */
     width: 150px;
     height:150px;
-    margin-top: 10%
+    margin-top: 10%;
+    border-radius: 10px;
     
     
 }

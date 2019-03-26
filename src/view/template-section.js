@@ -19,27 +19,27 @@ export const viewTemplateSection = {
     <div class="container-portafolio">    
       <div class="div-img-cipher">
         <figure>
-          <img src="images/logo.png" alt="cipher" class="img-project">          
+        <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-cipher/src/index.html"><img src="images/logo.png" alt="cipher" class="img-project"></a>         
         </figure>
       </div>
       <div class="img-pokemon-go">
         <figure>
-        <img src="images/logo.png" alt="pokemon-go" class="img-project">
+        <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-data-lovers/src/index.html"><img src="images/logo.png" alt="pokemon-go" class="img-project"></a>
         </figure>
       </div>
       <div class="img-joinclude">
         <figure>
-        <img src="images/logo.png" alt="joinclude" class="img-project">
+        <a href="https://micaelasuarezcortez.github.io/LIM008-social-network/src/"><img src="images/logo.png" alt="joinclude" class="img-project"></a>
         </figure>
       </div>
       <div class="img-vital">
         <figure>
-        <img src="images/logo.png" alt="vital" class="img-project">
+        <a href="https://micaelasuarezcortez.github.io/LIM008-social-network-2/src/"><img src="images/logo.png" alt="vital" class="img-project"></a>
         </figure>
       </div>
       <div class="img-paletica">
         <figure>
-        <img src="images/logo.png" alt="paletica" class="img-project">        
+        <a href ="https://micaelasuarezcortez.github.io/paletica/"><img src="images/paletica-logo.png" alt="paletica" class="img-project"></a>        
         </figure>
       </div>
       <div class="img-beneficencia">
@@ -56,6 +56,16 @@ export const viewTemplateSection = {
         <figure>
           <img src="images/logo.png" alt="social" class="img-project">         
         </figure>
+      </div>
+      <div class="img-carrito-compras-gym">
+      <figure>
+        <img src="images/logo.png" alt="carrito-compras-gym" class="img-project">         
+      </figure>      
+      </div>
+      <div class="img-chicken-love">
+      <figure>
+        <a href="https://marvelapp.com/477fe0i"><img src="images/chicken-love.jpg" alt="chicken-love" class="img-project"></a>         
+      </figure>      
       </div>
     </div>
    `,
