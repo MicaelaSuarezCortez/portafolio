@@ -19,52 +19,42 @@ export const viewTemplateSection = {
     <div class="container-portafolio">    
       <div class="div-img-cipher">
         <figure>
-        <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-cipher/src/index.html"><img src="images/logo.png" alt="cipher" class="img-project"></a>         
+        <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-cipher/src/index.html"><img src="images/cipher.png" alt="cipher" class="img-project" ></a>         
         </figure>
       </div>
       <div class="img-pokemon-go">
         <figure>
-        <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-data-lovers/src/index.html"><img src="images/logo.png" alt="pokemon-go" class="img-project"></a>
+        <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-data-lovers/src/index.html"><img src="images/pokemon.png" alt="pokemon-go" class="img-project"></a>
         </figure>
       </div>
       <div class="img-joinclude">
         <figure>
-        <a href="https://micaelasuarezcortez.github.io/LIM008-social-network/src/"><img src="images/logo.png" alt="joinclude" class="img-project"></a>
+        <a href="https://micaelasuarezcortez.github.io/LIM008-social-network/src/"><img src="images/social-network.png" alt="joinclude" class="img-project"></a>
         </figure>
       </div>
       <div class="img-vital">
         <figure>
-        <a href="https://micaelasuarezcortez.github.io/LIM008-social-network-2/src/"><img src="images/logo.png" alt="vital" class="img-project"></a>
+        <a href="https://micaelasuarezcortez.github.io/LIM008-social-network-2/src/"><img src="images/social-network-vital.png" alt="vital" class="img-project"></a>
         </figure>
       </div>
       <div class="img-paletica">
         <figure>
-        <a href ="https://micaelasuarezcortez.github.io/paletica/"><img src="images/paletica-logo.png" alt="paletica" class="img-project"></a>        
-        </figure>
-      </div>
-      <div class="img-beneficencia">
-        <figure>
-        <img src="images/logo.png" alt="beneficencia" class="img-project">
+        <a href ="https://micaelasuarezcortez.github.io/paletica/"><img src="images/paletica.png" alt="paletica" class="img-project"></a>        
         </figure>
       </div>
       <div class="img-ica-express"> 
-        <figure>
-        <img src="images/logo.png" alt="ica-express" class="img-project">
-        </figure>
-      </div>
-      <div class="img-social">
-        <figure>
-          <img src="images/logo.png" alt="social" class="img-project">         
-        </figure>
-      </div>
-      <div class="img-carrito-compras-gym">
       <figure>
-        <img src="images/logo.png" alt="carrito-compras-gym" class="img-project">         
-      </figure>      
+      <a href ="https://micaelasuarezcortez.github.io/Ica-Express/"><img src="images/ica-express.png" alt="ica-express" class="img-project"></a>
+      </figure>
       </div>
+      <div class="img-beneficencia">
+        <figure>
+        <a href ="https://micaelasuarezcortez.github.io/beneficencia/"><img src="images/beneficencia.png" alt="beneficencia" class="img-project"></a>
+        </figure>
+      </div>     
       <div class="img-chicken-love">
       <figure>
-        <a href="https://marvelapp.com/477fe0i"><img src="images/chicken-love.jpg" alt="chicken-love" class="img-project"></a>         
+        <a href="https://marvelapp.com/477fe0i"><img src="images/chicken-love.png" alt="chicken-love" class="img-project"></a>         
       </figure>      
       </div>
     </div>
