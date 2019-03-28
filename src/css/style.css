@@ -98,6 +98,7 @@
 }
 .foto-perfil{
     width: 100%;
+    border-radius: 10px;
     
 }
 .div-foto {
@@ -105,7 +106,8 @@
     /* width: 95%; */
     flex-basis: 95%;
     height: 100%;
-    margin-top: 10%
+    margin-top: 10%;
+  
 }
 
 .presentation {
@@ -117,8 +119,8 @@
 }
 
 .description-about-me {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
     line-height: 30px;
     text-align: justify
 }
@@ -145,12 +147,10 @@
     justify-content: space-around;
     align-content: center;
     flex-wrap:wrap;
-    margin-bottom: 15%;
-    
-   
+    margin-bottom: 15%;  
 }
-.title-section-portfolio {
-    font-family: 'Fira Sans', sans-serif;
+.title-section {
+    font-family: 'Merriweather', sans-serif;
     font-size: 25px;
     text-align: center;
     margin-top: 5%;
@@ -165,4 +165,35 @@
     border-width: 2px;
     border-style: solid;
 }
+.subtitle-contacto {
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 18px;
+   text-align: center;
+   margin-top: 10%
+   
+}
+.container-section-contact {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-bottom: 15%;  
+}
 
+.contact-information{  
+    /* flex-basis: 50%; */
+    width: 270px;
+    height:30px;
+    margin-top: 15%;   
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}

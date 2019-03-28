@@ -1,5 +1,8 @@
 export const viewTemplateSection = {
   acercademi: `
+  <div class="title-section">
+  <p>ACERCA DE MÍ</p>
+  </div> 
     <div class="container-about-me">
       <div class="div-foto">
         <figure class= "foto-perfil">
@@ -7,13 +10,12 @@ export const viewTemplateSection = {
         </figure>
       </div>
       <div class = "presentation">
-        <p class="description-about-me">Hola mi nombre es Micaela Suarez Cortez y soy Front-end developer egresada de Laboratoria.
-        He desarrollado aplicaciones web con HTML5, CSS3, JavaScript y Firebase.</p>
+        <p class="description-about-me">Hola mi nombre es Micaela Suarez Cortez y soy Front-end developer egresada de Laboratoria, he desarrollado aplicaciones web con HTML5, CSS3, JavaScript y Firebase.</p>
       </div>
    </div>
     `,
   portafolio: ` 
-  <div class="title-section-portfolio">
+  <div class="title-section">
   <p>PORTAFOLIO</p>
   </div>   
     <div class="container-section">    
@@ -60,7 +62,7 @@ export const viewTemplateSection = {
     </div>
    `,
   skills: `
-  <div class="title-section-portfolio">
+  <div class="title-section">
   <p>SKILLS</p>
   </div>   
     <div class="container-section">    
@@ -107,21 +109,29 @@ export const viewTemplateSection = {
     </div>   
   `,
   contacto: `
-  <div>
-    <div>
-      <p>Contacto</p>
-    </div>
-    <div>
+  <div class="title-section">
+    <p>CONTACTO</p>
+  </div>
+  <div class="container-section-contact">
+    <div class="subtitle-contacto">
       <p>¿Interesadx en hacer un proyecto juntos? Contáctame en: </p>
     </div>
-    <div>
-     <ul>
-       <li><img src="">micaela.suarez.c@gmail.com</li>
-       <li><img src="">975336010</li>
-       <li><img src="">https://www.linkedin.com/in/micaelasuarez/</li>
-     </ul>
+    <div class="contact-information">
+      <figure>
+      <img src="images/email.png"><span> micaela.suarez.c@gmail.com</span>
+      </figure>
     </div>
-</div>
+    <div class="contact-information">  
+      <figure>    
+      <img src="images/phone.png"><span> 975336010</span>
+      </figure>
+    </div>
+    <div class="contact-information">
+      <figure>
+        <img src="images/linkedin-boton-circular-social.png"><a href="https://www.linkedin.com/in/micaelasuarez/" class="link"><span> Linkedin</span></a>  
+      </figure>
+    </div>
+  </div>
   `
 };
 
