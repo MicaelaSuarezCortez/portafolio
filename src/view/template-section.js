@@ -13,46 +13,46 @@ export const viewTemplateSection = {
    </div>
     `,
   portafolio: ` 
-  <div class="title-portafolio">
+  <div class="title-section-portfolio">
   <p>PORTAFOLIO</p>
   </div>   
-    <div class="container-portafolio">    
-      <div class="div-img-cipher">
+    <div class="container-section">    
+      <div>
         <figure>
         <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-cipher/src/index.html"><img src="images/cipher.png" alt="cipher" class="img-project" ></a>         
         </figure>
       </div>
-      <div class="img-pokemon-go">
+      <div>
         <figure>
         <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-data-lovers/src/index.html"><img src="images/pokemon.png" alt="pokemon-go" class="img-project"></a>
         </figure>
       </div>
-      <div class="img-joinclude">
+      <div>
         <figure>
         <a href="https://micaelasuarezcortez.github.io/LIM008-social-network/src/"><img src="images/social-network.png" alt="joinclude" class="img-project"></a>
         </figure>
       </div>
-      <div class="img-vital">
+      <div>
         <figure>
         <a href="https://micaelasuarezcortez.github.io/LIM008-social-network-2/src/"><img src="images/social-network-vital.png" alt="vital" class="img-project"></a>
         </figure>
       </div>
-      <div class="img-paletica">
+      <div>
         <figure>
         <a href ="https://micaelasuarezcortez.github.io/paletica/"><img src="images/paletica.png" alt="paletica" class="img-project"></a>        
         </figure>
       </div>
-      <div class="img-ica-express"> 
+      <div> 
       <figure>
       <a href ="https://micaelasuarezcortez.github.io/Ica-Express/"><img src="images/ica-express.png" alt="ica-express" class="img-project"></a>
       </figure>
       </div>
-      <div class="img-beneficencia">
+      <div>
         <figure>
         <a href ="https://micaelasuarezcortez.github.io/beneficencia/"><img src="images/beneficencia.png" alt="beneficencia" class="img-project"></a>
         </figure>
       </div>     
-      <div class="img-chicken-love">
+      <div>
       <figure>
         <a href="https://marvelapp.com/477fe0i"><img src="images/chicken-love.png" alt="chicken-love" class="img-project"></a>         
       </figure>      
@@ -60,21 +60,51 @@ export const viewTemplateSection = {
     </div>
    `,
   skills: `
-  <div>
-    <div>
-      <p>Skills</p>
-    </div>
-    <figure>
-      <img src="#" alt="javascript">      
-      <img src="#" alt="html5">      
-      <img src="#" alt="css3">    
-      <img src="#" alt="bootstrap">    
-      <img src="#" alt="git/github">   
-      <img src="#" alt="firebase"> 
-      <img src="#" alt="scrum">     
-      <img src="#" alt="uml">     
-    </figure>
-</div>
+  <div class="title-section-portfolio">
+  <p>SKILLS</p>
+  </div>   
+    <div class="container-section">    
+      <div>
+        <figure>
+        <img src="images/js.png" alt="javaScript" class="img-project"></a>         
+        </figure>
+      </div>
+      <div>
+        <figure>
+        <img src="images/html5.png" alt="html5" class="img-project"></a>
+        </figure>
+      </div>
+      <div>
+        <figure>
+        <img src="images/css3.svg" alt="css3" class="img-project"></a>
+        </figure>
+      </div>
+      <div>
+        <figure>
+        <img src="images/bootstrap.png" alt="vital" class="img-project"></a>
+        </figure>
+      </div>
+      <div>
+        <figure>
+        <img src="images/git.jpg" alt="git" class="img-project"></a>        
+        </figure>
+      </div>
+      <div> 
+      <figure>
+      <img src="images/git-hub.jpg" alt="git-hub" class="img-project"></a>
+      </figure>
+      </div>
+      <div>
+        <figure>
+        <img src="images/firebase.png" alt="firebase" class="img-project"></a>
+        </figure>
+      </div>     
+      <div>
+      <figure>
+        <img src="images/scrum.png" alt="scrum" class="img-project"></a>         
+      </figure>      
+      </div>
+    </div>   
   `,
   contacto: `
   <div>

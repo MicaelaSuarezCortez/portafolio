@@ -86,7 +86,6 @@
 }
 
 .container-about-me {
- outline: 10px solid green;
  height: 100%;
  width: 80%;
  margin: auto;
@@ -102,7 +101,7 @@
     
 }
 .div-foto {
-    background: red;
+    /* background: red; */
     /* width: 95%; */
     flex-basis: 95%;
     height: 100%;
@@ -110,7 +109,7 @@
 }
 
 .presentation {
-    background: blue;
+    /* background: blue; */
     /* width: 95%; */
     flex-basis: 95%;
     height: 100%;
@@ -136,7 +135,7 @@
   padding-top: 3%   
 }
 
-.container-portafolio {
+.container-section {
     /* outline: 10px solid green; */
     height: 90%;
     width: 90%;
@@ -150,14 +149,13 @@
     
    
 }
-.title-portafolio {
+.title-section-portfolio {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-top: 5%;
 }
-.img-project{
-    background: aqua;
+.img-project{  
     /* flex-basis: 50%; */
     width: 150px;
     height:150px;
