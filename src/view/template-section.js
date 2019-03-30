@@ -133,7 +133,7 @@ export const viewTemplateSection = {
     </div>
     <div class="contact-information">
       <figure>
-      <img src="images/portafolio.png"><a href="document/micaela-suarez-cortez.pdf" download="cv-micaela-suarez" class="link"><span> Descarga mi portafolio</span></a>  
+      <img src="images/portafolio.png"><a href="document/micaela-suarez-cortez.pdf" download="cv-micaela-suarez" class="link"><span> Descarga mi CV</span></a>  
       </figure>
     </div>
   </div>
