@@ -128,7 +128,12 @@ export const viewTemplateSection = {
     </div>
     <div class="contact-information">
       <figure>
-        <img src="images/linkedin-boton-circular-social.png"><a href="https://www.linkedin.com/in/micaelasuarez/" class="link"><span> Linkedin</span></a>  
+        <img src="images/linkedin-boton-circular-social.png"><a href="https://www.linkedin.com/in/micaelasuarez/" class="link"><span> Visita mi Linkedin</span></a>  
+      </figure>
+    </div>
+    <div class="contact-information">
+      <figure>
+      <img src="images/portafolio.png"><a href="document/micaela-suarez-cortez.pdf" download="cv-micaela-suarez" class="link"><span> Descarga mi portafolio</span></a>  
       </figure>
     </div>
   </div>

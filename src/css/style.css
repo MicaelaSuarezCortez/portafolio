@@ -52,8 +52,8 @@
     visibility: hidden;
     z-index: -1111; /**/
 }
-
-@media screen and (max-width: 800px) {
+/* medidas menores iguales a 800px de ancho se mostrará con sandwich menu */
+@media screen and (max-width: 800px) { 
     .show-menu-btn, .hide-menu-btn{
         display: block; /*cuando llegue a 800px el menú se muestra en bloque uno debajo de otro*/
     }
@@ -196,4 +196,13 @@
 .link{
     text-decoration: none;
     color: black;
+    cursor: pointer;    
+}
+
+.link:hover{
+    color: #182153;
+    font-weight: bold;
+    transition: 0.4s;
+    font-size: 17px
+
 }
