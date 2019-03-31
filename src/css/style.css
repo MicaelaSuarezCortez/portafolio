@@ -105,6 +105,27 @@
         flex-wrap:wrap;
         margin-bottom: 15%;  
     }
+    .foto-perfil{
+        /* outline: 10px solid black;    */
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10%    
+    }  
+    
+    .presentation {
+        background: blue;
+        width: 95%;
+        flex-basis: 95%;
+        height: 90%;
+        margin-top: 10%
+    } 
+    
+    .description-about-me {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 17px;
+        line-height: 30px;
+        text-align: justify
+    } 
     .img-project{  
         /* flex-basis: 50%; */
         width: 150px;
@@ -120,7 +141,7 @@
 /* para el contenido acerca de mi  */
 @media (min-width: 800px){  
       .container-about-me {
-        outline: 10px solid blue;
+        /* outline: 10px solid blue; */
         height: 100%;
         width: 25%;
         margin: auto;
@@ -131,7 +152,7 @@
        } 
 
       .foto-perfil{
-        outline: 10px solid black;   
+        /* outline: 10px solid black;    */
         width: 100%;
         border-radius: 10px;
         margin-top: 10%    
@@ -152,7 +173,7 @@
         text-align: justify
       }
 }
- /* Para contenido de la srcción proyectos */
+ /* Para contenido de la sección proyectos */
 @media (min-width: 800px){
     .container-section {
         /* outline: 10px solid green; */
@@ -176,29 +197,6 @@
         border-width: 2px;
         border-style: solid;
     }
-}
-
-.foto-perfil{
-    outline: 10px solid black;   
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 10%    
-}
-
-
-.presentation {
-    /* background: blue; */
-    /* width: 95%; */
-    flex-basis: 95%;
-    height: 90%;
-    margin-top: 10%
-}
-
-.description-about-me {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 17px;
-    line-height: 30px;
-    text-align: justify
 }
 
 .footer {
