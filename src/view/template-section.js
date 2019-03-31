@@ -8,8 +8,8 @@ export const viewTemplateSection = {
           <img src="images/micaela-suarez.JPG" class="foto-perfil">
         </figure>
       
-      <div class = "presentation">
-        <p class="description-about-me">Hola mi nombre es Micaela Suarez Cortez y soy Front-end developer egresada de Laboratoria, he desarrollado aplicaciones web con HTML5, CSS3, JavaScript y Firebase.</p>
+        <div class = "presentation">
+          <p class="description-about-me">Hola mi nombre es Micaela Suarez Cortez y soy Front-end developer egresada de Laboratoria, he desarrollado aplicaciones web con HTML5, CSS3, JavaScript y Firebase.</p>
       </div>
    </div>
     `,

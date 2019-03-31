@@ -82,9 +82,16 @@
 
     #chk:checked ~ .menu {
         right: 0;
-    }  
+    }    
+    
+    .title-section {
+        font-family: 'Merriweather', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 2.5%;
+    }
+
     .container-about-me {
-        outline: 10px solid blue;
         height: 100%;
         width: 80%;
         margin: auto;
@@ -94,7 +101,6 @@
         align-items: center
        }
     .container-section {
-        /* outline: 10px solid green; */
         height: 90%;
         width: 90%;
         margin: auto;
@@ -106,18 +112,17 @@
         margin-bottom: 15%;  
     }
     .foto-perfil{
-        /* outline: 10px solid black;    */
         width: 100%;
         border-radius: 10px;
         margin-top: 10%    
     }  
     
     .presentation {
-        background: blue;
         width: 95%;
         flex-basis: 95%;
         height: 90%;
-        margin-top: 10%
+        margin-top: 5%;
+        margin-bottom:20%
     } 
     
     .description-about-me {
@@ -127,7 +132,6 @@
         text-align: justify
     } 
     .img-project{  
-        /* flex-basis: 50%; */
         width: 150px;
         height:150px;
         margin-top: 10%;
@@ -136,12 +140,53 @@
         border-width: 2px;
         border-style: solid;
     }
+    .subtitle-contacto {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10%   
+     }
+     
+     .container-section-contact {
+         height: 90%;
+         width: 90%;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         flex-wrap:wrap;
+         margin-bottom: 15%;  
+     }
+     
+     .contact-information{  
+         flex-basis: 50%; 
+         width: 270px;
+         height:30px;
+         margin-top: 10%;   
+         font-family: 'Fira Sans', sans-serif;
+         font-size: 18px;
+     }
+     
+     .link{
+         text-decoration: none;
+         color: black;
+         cursor: pointer;    
+     }
+     
+     .link:hover{
+         color: #182153;
+         font-weight: bold;
+         transition: 0.4s;
+         font-size: 17px
+     
+     } 
        
 }
+
 /* para el contenido acerca de mi  */
 @media (min-width: 800px){  
       .container-about-me {
-        /* outline: 10px solid blue; */
         height: 100%;
         width: 25%;
         margin: auto;
@@ -152,18 +197,15 @@
        } 
 
       .foto-perfil{
-        /* outline: 10px solid black;    */
         width: 100%;
         border-radius: 10px;
         margin-top: 10%    
         }   
 
       .presentation {
-        /* background: blue; */
-        /* width: 95%; */
         flex-basis: 95%;
         height: 90%;
-        margin-top: 10%
+        margin-top: 5%;      
       }
     
       .description-about-me {
@@ -172,11 +214,17 @@
         line-height: 30px;
         text-align: justify
       }
+
+      .title-section {
+        font-family: 'Merriweather', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 2.5%;
+    }
 }
  /* Para contenido de la sección proyectos */
 @media (min-width: 800px){
     .container-section {
-        /* outline: 10px solid green; */
         height: 90%;
         width: 90%;
         margin: auto;
@@ -188,7 +236,6 @@
         margin-bottom: 5%;  
     }
     .img-project{  
-        /* flex-basis: 50%; */
         width: 200px;
         height: 200px;
         margin-top: 10%;       
@@ -199,6 +246,51 @@
     }
 }
 
+/*Para contenido de contacto*/
+@media (min-width: 800px){
+    .subtitle-contacto {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5% ;
+        margin-bottom: 2% 
+     }
+     
+    .container-section-contact {
+         height: 90%;
+         width: 90%;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         flex-wrap:wrap;
+         margin-bottom: 15%;  
+     }
+     
+     .contact-information{  
+         flex-basis: 50%; 
+         width: 290px;
+         height:30px;
+         margin-top: 3%;   
+         font-family: 'Fira Sans', sans-serif;
+         font-size: 18px;
+     }
+     
+     .link{
+         text-decoration: none;
+         color: black;
+         cursor: pointer;    
+     }
+     
+     .link:hover{
+         color: #182153;
+         font-weight: bold;
+         transition: 0.4s;
+         font-size: 19px     
+     } 
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -207,62 +299,12 @@
     background: rgb(235, 149, 189);
     color: #182153
   }
-  .flex {
+.flex {
     display: flex;
     justify-content: center;
     align-items: center
-  }
+ }
   
 .padding {
     padding: 1rem
   }
-  
-
-.title-section {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 5%;
-}
-
-.subtitle-contacto {
-   font-family: 'Fira Sans', sans-serif;
-   font-size: 18px;
-   text-align: center;
-   margin-top: 10%
-   
-}
-.container-section-contact {
-    height: 90%;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
-    margin-bottom: 15%;  
-}
-
-.contact-information{  
-    /* flex-basis: 50%; */
-    width: 270px;
-    height:30px;
-    margin-top: 15%;   
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 16px;
-}
-
-.link{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;    
-}
-
-.link:hover{
-    color: #182153;
-    font-weight: bold;
-    transition: 0.4s;
-    font-size: 17px
-
-}
