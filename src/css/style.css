@@ -27,7 +27,7 @@
     color: #fff;
     text-transform: uppercase;
     text-decoration: none; /* para quitar la línea de subrayado */
-    padding: 0 10px; /* espacio alrededor del contenido del elemento, pero dentro de sus bordes (espacioentre contenido y borde) */
+    padding: 0 10px; 
     transition: 0.4s
 }
 
@@ -35,11 +35,11 @@
     transition: 0.4s;
     font-size: 30px;  /*para el tamaño de los botones menu y X*/
     cursor: pointer;
-    display: none /* saca el elemento del flujo no reserva su espacio*/
+    display: none 
 }
 
 .show-menu-btn {
-    float: right; /*hace que el botón del menú flote hacia la derecha*/
+    float: right; 
 }
 .menu a:hover,
 .show-menu-btn:hover,
@@ -48,14 +48,14 @@
 }
 
 #chk {
-    position: absolute; /*pierde su tamaño y espacio en el flujo, su ancho lo define su contenido*/
+    position: absolute; 
     visibility: hidden;
-    z-index: -1111; /**/
+    z-index: -1111; 
 }
 /* medidas menores iguales a 800px de ancho se mostrará con sandwich menu */
 @media screen and (max-width: 800px) { 
     .show-menu-btn, .hide-menu-btn{
-        display: block; /*cuando llegue a 801px el menú se muestra en bloque uno debajo de otro*/
+        display: block; 
     }
     .menu {
         position: fixed;
@@ -131,7 +131,7 @@
         line-height: 30px;
         text-align: justify
     } 
-    .img-project{  
+    .image{  
         width: 150px;
         height:150px;
         margin-top: 10%;
@@ -159,7 +159,7 @@
          margin-bottom: 15%;  
      }
      
-     .contact-information{  
+     .contact-data{  
          flex-basis: 50%; 
          width: 270px;
          height:30px;
@@ -235,7 +235,7 @@
         flex-wrap:wrap;
         margin-bottom: 5%;  
     }
-    .img-project{  
+    .image{  
         width: 200px;
         height: 200px;
         margin-top: 10%;       
@@ -268,7 +268,7 @@
          margin-bottom: 15%;  
      }
      
-     .contact-information{  
+     .contact-data{  
          flex-basis: 50%; 
          width: 290px;
          height:30px;
