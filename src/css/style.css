@@ -55,7 +55,7 @@
 /* medidas menores iguales a 800px de ancho se mostrará con sandwich menu */
 @media screen and (max-width: 800px) { 
     .show-menu-btn, .hide-menu-btn{
-        display: block; /*cuando llegue a 800px el menú se muestra en bloque uno debajo de otro*/
+        display: block; /*cuando llegue a 801px el menú se muestra en bloque uno debajo de otro*/
     }
     .menu {
         position: fixed;
@@ -82,39 +82,115 @@
 
     #chk:checked ~ .menu {
         right: 0;
-    }   
+    }  
+    .container-about-me {
+        outline: 10px solid blue;
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+       }
+    .container-section {
+        /* outline: 10px solid green; */
+        height: 90%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap:wrap;
+        margin-bottom: 15%;  
+    }
+    .img-project{  
+        /* flex-basis: 50%; */
+        width: 150px;
+        height:150px;
+        margin-top: 10%;
+        border-radius: 10px;
+        border-color: #182153;
+        border-width: 2px;
+        border-style: solid;
+    }
+       
+}
+/* para el contenido acerca de mi  */
+@media (min-width: 800px){  
+      .container-about-me {
+        outline: 10px solid blue;
+        height: 100%;
+        width: 25%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+       } 
+
+      .foto-perfil{
+        outline: 10px solid black;   
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10%    
+        }   
+
+      .presentation {
+        /* background: blue; */
+        /* width: 95%; */
+        flex-basis: 95%;
+        height: 90%;
+        margin-top: 10%
+      }
+    
+      .description-about-me {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 17px;
+        line-height: 30px;
+        text-align: justify
+      }
+}
+ /* Para contenido de la srcción proyectos */
+@media (min-width: 800px){
+    .container-section {
+        /* outline: 10px solid green; */
+        height: 90%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-content: center;
+        flex-wrap:wrap;
+        margin-bottom: 5%;  
+    }
+    .img-project{  
+        /* flex-basis: 50%; */
+        width: 200px;
+        height: 200px;
+        margin-top: 10%;       
+        border-radius: 10px;
+        border-color: #182153;
+        border-width: 2px;
+        border-style: solid;
+    }
 }
 
-.container-about-me {
- height: 100%;
- width: 80%;
- margin: auto;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center
-
-
-}
 .foto-perfil{
+    outline: 10px solid black;   
     width: 100%;
     border-radius: 10px;
-    
+    margin-top: 10%    
 }
-.div-foto {
-    /* background: red; */
-    /* width: 95%; */
-    flex-basis: 95%;
-    height: 100%;
-    margin-top: 10%;
-  
-}
+
 
 .presentation {
     /* background: blue; */
     /* width: 95%; */
     flex-basis: 95%;
-    height: 100%;
+    height: 90%;
     margin-top: 10%
 }
 
@@ -125,46 +201,32 @@
     text-align: justify
 }
 
-/* Para el footer */
-.container-footer {
-  background-color: palevioletred;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 30px;
-  color: white;
-  text-align: center;
-  padding-top: 3%   
-}
-
-.container-section {
-    /* outline: 10px solid green; */
-    height: 90%;
-    width: 90%;
-    margin: auto;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(235, 149, 189);
+    color: #182153
+  }
+  .flex {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap:wrap;
-    margin-bottom: 15%;  
-}
+    justify-content: center;
+    align-items: center
+  }
+  
+.padding {
+    padding: 1rem
+  }
+  
+
 .title-section {
     font-family: 'Merriweather', sans-serif;
     font-size: 25px;
     text-align: center;
     margin-top: 5%;
 }
-.img-project{  
-    /* flex-basis: 50%; */
-    width: 150px;
-    height:150px;
-    margin-top: 10%;
-    border-radius: 10px;
-    border-color: #182153;
-    border-width: 2px;
-    border-style: solid;
-}
+
 .subtitle-contacto {
    font-family: 'Fira Sans', sans-serif;
    font-size: 18px;

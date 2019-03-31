@@ -3,12 +3,11 @@ export const viewTemplateSection = {
   <div class="title-section">
   <p>ACERCA DE MÍ</p>
   </div> 
-    <div class="container-about-me">
-      <div class="div-foto">
-        <figure class= "foto-perfil">
+    <div class="container-about-me">      
+       <figure>
           <img src="images/micaela-suarez.JPG" class="foto-perfil">
         </figure>
-      </div>
+      
       <div class = "presentation">
         <p class="description-about-me">Hola mi nombre es Micaela Suarez Cortez y soy Front-end developer egresada de Laboratoria, he desarrollado aplicaciones web con HTML5, CSS3, JavaScript y Firebase.</p>
       </div>
