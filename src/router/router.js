@@ -2,11 +2,11 @@ import { viewTemplateSection } from '../view/template-section.js';
 
 const changeTmp = (hash) => {
   if (hash === '#/' || hash === '' || hash === '#') {
-    return viewTmp('#/home');
+    return viewTmp('#/acercademi');
   } else if (hash === '#/acercademi' || hash === '#/portafolio' || hash === '#/skills' || hash === '#/contacto') {
     return viewTmp(hash);
   } else {
-    return viewTmp('#/different');
+    return viewTmp('#/acercademi');
   }
 };
 
