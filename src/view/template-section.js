@@ -5,7 +5,7 @@ export const viewTemplateSection = {
   </div> 
     <div class="container-about-me">      
       <figure>
-          <img src="images/micaela-suarez.JPG" class="foto-perfil">
+          <img src="images/perfil-plataforma-talento.JPG" class="foto-perfil">
       </figure>      
       <div class = "presentation">
           <p class="description-about-me">Hola mi nombre es Micaela Suarez Cortez y soy Front-end developer egresada de Laboratoria, he desarrollado aplicaciones web con HTML5, CSS3, JavaScript y Firebase.</p>
@@ -19,7 +19,7 @@ export const viewTemplateSection = {
     <div class="container-section">    
       <div>
         <figure>
-        <a href="https://micaelasuarezcortez.github.io/lim-2018-11-bc-core-am-cipher/src/index.html"><img src="images/cipher.png" alt="cipher" class="image" ></a>         
+        <a href="https://github.com/MicaelaSuarezCortez/md-links"><img src="images/md-links.png" alt="cipher" class="image" ></a>         
         </figure>
       </div>
       <div>
